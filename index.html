@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <title>New Vendor input Platform</title>
+      <link
+        href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
+        rel="stylesheet"
+      />
+      <link rel="stylesheet" href="assets/styles/app.css" />
+      <script src="assets/scripts/vendor.js" defer></script>
+      <script src="assets/scripts/app.js" defer></script>
+    </head>
+    <body>
+      <header>
+        <h1>Welcome to the Platform!</h1>
+      </header>
+      <section id="input">
+          <label for="fname">First name:</label>
+          <input type="text" id="fname" name="fname" /><br /><br />
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" name="lname" /><br /><br />
+          <input type="submit" value="Submit" />
+      </section>
+      <section id="output">
+        <label for="fnameOut">First name:</label>
+        <input type="text" id="fnameOut" name="fnameOut" disabled/><br /><br />
+        <label for="lnameOut">Last name:</label>
+        <input type="text" id="lnameOut" name="lnameOut" disabled/><br /><br />
+      </section>
+    </body>
+  </html>
+</html>
